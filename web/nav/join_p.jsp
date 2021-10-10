@@ -5,14 +5,11 @@
 <%
     request.setCharacterEncoding("UTF-8");
     String sql="insert into NIKE_MEMBER values (?, ?, ?, ?)";
-
     PreparedStatement pstmt = conn.prepareStatement(sql);
-
     pstmt.setString(1, request.getParameter("id"));
     pstmt.setString(2, request.getParameter("password"));
     pstmt.setString(3, request.getParameter("name"));
     pstmt.setString(4, request.getParameter("address"));
-
     pstmt.executeUpdate();
 %>
 
@@ -37,7 +34,6 @@
             -moz-user-select: none;
             user-select: none;
         }
-
         @media (min-width: 768px) {
             .bd-placeholder-img-lg {
                 font-size: 3.5rem;
@@ -54,7 +50,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body py-0">
-              <center><p>회원가입을 축하드립니다!</p></center>
+                <center><p>회원가입을 축하드립니다!</p></center>
             </div>
             <div class="modal-footer flex-column border-top-0">
                 <button type="button" class="Close btn btn-lg btn-success` w-100 mx-0 mb-2" onclick="location.href='Login.jsp';">로그인 하기</button>
@@ -72,4 +68,3 @@
 </div>
 </body>
 </html>
-
