@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="nike_collection:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/nike_collection_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="nike_collection/web/웹" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="nike_collection" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
