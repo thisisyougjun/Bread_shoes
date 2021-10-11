@@ -1,4 +1,4 @@
-package portfolio.nav;
+package nav;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

@@ -5,11 +5,14 @@
 <%
     request.setCharacterEncoding("UTF-8");
     String sql="insert into NIKE_MEMBER values (?, ?, ?, ?)";
+
     PreparedStatement pstmt = conn.prepareStatement(sql);
+
     pstmt.setString(1, request.getParameter("id"));
     pstmt.setString(2, request.getParameter("password"));
     pstmt.setString(3, request.getParameter("name"));
     pstmt.setString(4, request.getParameter("address"));
+
     pstmt.executeUpdate();
 %>
 
@@ -23,9 +26,7 @@
     <meta name="generator" content="Hugo 0.88.1">
     <title>Bread Shoes</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="../../../assets/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="../css/Airforce.css">
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
         .bd-placeholder-img {
             font-size: 1.125rem;

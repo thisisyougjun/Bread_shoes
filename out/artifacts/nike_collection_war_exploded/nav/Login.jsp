@@ -9,8 +9,8 @@
     <title>Login</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="../../../assets/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="../css/LoginStyle.css.css">
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/LoginStyle.css">
     <style>
         .bd-placeholder-img {
             font-size: 1.125rem;
@@ -58,13 +58,12 @@
     </div>
 </header>
 
-</main>
 
 
 <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
-</html>
+
 
         <section class ="section">
         <form class="login-form">
@@ -141,4 +140,10 @@
         </ul>
     </footer>
 </div>
+
+<body>
+    <%
+
+    %>
+</body>
 </html>
