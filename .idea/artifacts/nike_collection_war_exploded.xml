@@ -7,6 +7,9 @@
         <element id="directory" name="classes">
           <element id="module-output" name="nike_collection" />
         </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/../../../../oraclexe/app/oracle/product/11.2.0/server/jdbc/lib/ojdbc6.jar" />
+        </element>
       </element>
     </root>
   </artifact>
