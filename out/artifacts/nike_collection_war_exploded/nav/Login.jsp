@@ -63,12 +63,10 @@
 <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
-
-
         <section class ="section">
-        <form class="login-form">
+        <form class="login-form" method="post" action="login_p.jsp">
          <div class="int-area">
-             <input type="text" name="id" id="id" autocomplete="off" required>
+             <input type="text" name="id" id="id" autocomplete="off" required >
              <label for="id">User id</label>
          </div>
          <div class="int-area">
@@ -141,9 +139,4 @@
     </footer>
 </div>
 
-<body>
-    <%
-
-    %>
-</body>
 </html>
