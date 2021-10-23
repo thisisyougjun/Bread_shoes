@@ -17,101 +17,31 @@
     - BootStrab v5.1  
    
    
-## Header
-- # H1 Header   
-- ## H2 Header   
-- ### H3 Header   
-- #### H4 Header   
-- ##### H5 Header   
-- ###### H6 Header   
-
+## 👀디자인
+디자인 감각 1도 없는 저에게 디자인이란게 너무 어려웠습니다. 그래서 Bootstrab 템플릿를 사용해 기본 뼈대로 잡고 제가 좋아 하는 옷 브랜드 공식 홈페이지에 들어가서 디자인을 참고 하고 코드를 살펴 보고 많은 도움이 되었습니다. 
 <br>   
 
-## Text Style1
-- **진하게** (`Ctrl(Command) + B`)   
-- *기울이기* (`Ctrl(Command) + I`)   
-- <s>취소선</s> (`Ctrl(Command) + D`)   
-- <u>밑줄</u> (`Ctrl(Command) + U`)   
+## ⚡️페이지 기능
+### 반응형 페이지
+<s>많이 어려워했지만 어찌어찌 해서 어슬프게라도 만들었다</s>
 
-<br>   
-   
-## Text Style2
+### 모달
+신발 볼때마다 다른 페이지에 이동되서 조금의 번거로움을 해결하기 위해서 차라리 넓은 팝업창을 띄워 신발을 보여주는게 낫겠다 싶어 부트스트랩의 기능을 이용 해보았습니다.
 
->인용문   
-   
-<details><summary>접고 펴는 기능
-</summary>
+### 로그인/회원가입
 
-*Write here!*
-</details>
-
-- EASYME.md를 드래그하고 상단에 `Aa` 아이콘을 누르면? 👉 Easyme.md   
-- EASYME.md를 드래그하고 상단에 `A` 아이콘을 누르면? 👉 EASYME.MD   
-- EASYME.md를 드래그하고 상단에 `a` 아이콘을 누르면? 👉 easyme.md   
-   
-<br>   
-   
-## List   
-### Table of contents
-1. [title1](#write-title-here!)   
-2. [title2](#only-lowercase)   
-3. [title3](#use"-"instead-of-spacing-words)   
-4. [title4](#example)   
-    - [❓ EASYME.md가 뭐예요?](#-easymemd가-뭐예요)   
-    - [🛠 기능 엿보기](#-기능-엿보기)
-   
-### Unordered list   
-- unordered list1   
-- unordered list2   
-- unordered list3   
-- unordered list4   
-   
-### Ordered list   
-1. ordered list1   
-2. ordered list2   
-3. ordered list3   
-4. ordered list4   
-   
-<br>   
-   
-## Link   
-### General link
-- [🚗 Visit "EASYME.md" Github](https://github.com/EASYME-md/client)   
-- [🙋 ♂️ Visit "Jaewon Han" Github](https://github.com/onealog)
-
-### Image link
-![onealog](https://i.ibb.co/sPJNDcc/onealog.jpg)   
-Hello! I'm Jaewon Han 😃 
-   
-<br>   
-   
-## Code Block   
-### Code inline
-- `console.log('Hello EASYME.md!');`   
-   
-### Code block
-```js
-function makeDeveloper(name, language) {
-  if (name === 'Jaewon' && language === 'JavaScript') {
-    return 'perfect!';
-  }
-
-  return false;
-}
-
-makeDeveloper('Jaewon', 'JavaScript');
-```
+프로젝트 하면서 이 부분에서 제일 시간이 많이 걸렸고 많은 어려움을 겪었습니다.<br>
+아직 데이터베이스에 많이 익숙 하지않았기 때문이죠.
 
 <br>   
    
-## Table   
+## 😨 수 많은 시행착오
+   
 
 
-| title1 | title2 | title3 |
-| --- | --- | --- |
-| 1 | 2 | 3 |
-| 4 | 5 | 6 |
-| 7 | 8 | 9 |
+## 내가 배운것들
 
+## 아쉬운 점
 
-<br>   
+## 앞으로의 목표
+   
