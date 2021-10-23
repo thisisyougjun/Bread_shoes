@@ -1,33 +1,117 @@
-# Nike-collection
+# 🙌 안녕하세요. 이영준 입니다!   
 
--->링크<--
+## 프로젝트 소개
+- **Bread_shoes**는 제가 좋아하는 **나이키 스니커즈** 을 소개 하는 웹사이트 입니다.
+- 저의 별명 **<u>빵준    --> Breadjun</u>** + <u>**Shoes(신발)**</u> 과 합치면서 **`Bread_shoes`** 로 정했습니다.
+##  💻제작 동기
+학교에서 과정평가형 준비하기 위해 JSP와 DB를 활용해서 회원 관리 사이트를 여러번 반복 하고 만들었습니다.
+계속 같은 결과물을 보고 반복하는게 너무 질려 **"나도 나만의 웹 사이트 를 만들어보자!"** 라는 다짐으로 프로젝트를 시작 했습니다.이때 까지만 해도 저는 그저 아무생각 없이 만들었지만, 프로젝트를 시작하면서 많은 것을 알게되고 여기서 풀어보겠습니다 
+>제작기간 : 2021년 8월 ~ 진행중
+## 🛠 기술   
 
-나이키의 신발 라인업 조던, 덩크, 에어포스 세가지를 살펴 볼수 있습니다.
 
-링크에 접속 하시면 홈화면을 볼수 있습니다.
+    - HTML   
+    - CSS
+    - JavaScript
+    - JSP      
+    - BootStrab v5.1  
+   
+   
+## Header
+- # H1 Header   
+- ## H2 Header   
+- ### H3 Header   
+- #### H4 Header   
+- ##### H5 Header   
+- ###### H6 Header   
 
-![MainPage](https://user-images.githubusercontent.com/75524611/136701592-bb3aeb97-6ae9-4419-a67c-c4b6d02a90c3.PNG)
+<br>   
 
-상단 타이틀 사이트의 이름인 Bread Shoes 입력 되어 있고 일러스트일러 이용해 직접 제작하여 이미지를 삽입했습니다.
+## Text Style1
+- **진하게** (`Ctrl(Command) + B`)   
+- *기울이기* (`Ctrl(Command) + I`)   
+- <s>취소선</s> (`Ctrl(Command) + D`)   
+- <u>밑줄</u> (`Ctrl(Command) + U`)   
 
-![PageTapImg](https://user-images.githubusercontent.com/75524611/136701633-15b63605-2e63-4bff-91e8-68c47789b123.PNG)
+<br>   
+   
+## Text Style2
 
-페이지의 상단 좌측에 홈, 조던, 덩크, 에어포스 카테고리 와 우측에 로그인/회원가입이 구성 되어있습니다.
+>인용문   
+   
+<details><summary>접고 펴는 기능
+</summary>
 
-![Navbar](https://user-images.githubusercontent.com/75524611/136701692-304b7044-6610-44f8-91e2-15c960cf5a9a.PNG)
+*Write here!*
+</details>
 
-섹션 영역 입니다. 신발 보기를 클릭하면 스니커즈 버튼 클릭하면 나이키 스니커즈를 볼수 있습니다.
+- EASYME.md를 드래그하고 상단에 `Aa` 아이콘을 누르면? 👉 Easyme.md   
+- EASYME.md를 드래그하고 상단에 `A` 아이콘을 누르면? 👉 EASYME.MD   
+- EASYME.md를 드래그하고 상단에 `a` 아이콘을 누르면? 👉 easyme.md   
+   
+<br>   
+   
+## List   
+### Table of contents
+1. [title1](#write-title-here!)   
+2. [title2](#only-lowercase)   
+3. [title3](#use"-"instead-of-spacing-words)   
+4. [title4](#example)   
+    - [❓ EASYME.md가 뭐예요?](#-easymemd가-뭐예요)   
+    - [🛠 기능 엿보기](#-기능-엿보기)
+   
+### Unordered list   
+- unordered list1   
+- unordered list2   
+- unordered list3   
+- unordered list4   
+   
+### Ordered list   
+1. ordered list1   
+2. ordered list2   
+3. ordered list3   
+4. ordered list4   
+   
+<br>   
+   
+## Link   
+### General link
+- [🚗 Visit "EASYME.md" Github](https://github.com/EASYME-md/client)   
+- [🙋 ♂️ Visit "Jaewon Han" Github](https://github.com/onealog)
 
-![MainSection](https://user-images.githubusercontent.com/75524611/136701939-45da76f5-2cb5-4dd5-b701-12638f33de85.PNG)
+### Image link
+![onealog](https://i.ibb.co/sPJNDcc/onealog.jpg)   
+Hello! I'm Jaewon Han 😃 
+   
+<br>   
+   
+## Code Block   
+### Code inline
+- `console.log('Hello EASYME.md!');`   
+   
+### Code block
+```js
+function makeDeveloper(name, language) {
+  if (name === 'Jaewon' && language === 'JavaScript') {
+    return 'perfect!';
+  }
 
-조던 덩크 에어포스 해당 접속 되어 있는 해당 카테고리 글자색이 회색으로 표시되어 이용자가 쉽게 볼수 있도록 표현 되어있습니다.
+  return false;
+}
 
-![JordanPage](https://user-images.githubusercontent.com/75524611/136702121-efef16f0-9ff2-4d03-9822-150b8aa14b71.PNG)
-![DunkPage](https://user-images.githubusercontent.com/75524611/136702122-4865b852-0f7a-4e3d-88f3-2986334a6619.PNG)
-![AirForcePage](https://user-images.githubusercontent.com/75524611/136702123-cfd8763f-ca35-4b94-98d4-06368dd531ff.PNG)
+makeDeveloper('Jaewon', 'JavaScript');
+```
 
-각 스니커즈 알아보기 클릭하면 아래 이미지 처럼 팝업창이 뜨며 해당 스니커즈를 자세한 정보가 나옵니다.
+<br>   
+   
+## Table   
 
-![Modal](https://user-images.githubusercontent.com/75524611/136702304-96bd0f41-7147-4a44-b636-0e170d024822.PNG)
-![DunkModal](https://user-images.githubusercontent.com/75524611/136702306-698d96fe-d6f1-4a0f-8996-779c37b25544.PNG)
-![AirForceModal](https://user-images.githubusercontent.com/75524611/136702309-c67f1dd0-6915-4fdc-85ad-9018c6199051.PNG)
+
+| title1 | title2 | title3 |
+| --- | --- | --- |
+| 1 | 2 | 3 |
+| 4 | 5 | 6 |
+| 7 | 8 | 9 |
+
+
+<br>   
