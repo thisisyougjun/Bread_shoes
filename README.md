@@ -1,6 +1,7 @@
 # 🙌 안녕하세요. 이영준 입니다!  
 
-## 프로젝트 소개<br>![index](https://user-images.githubusercontent.com/75524611/138551525-42fded93-bb05-4c5f-9ce6-9c234b7cee98.gif)<br>
+![index](https://user-images.githubusercontent.com/75524611/138551525-42fded93-bb05-4c5f-9ce6-9c234b7cee98.gif)<br>
+## 프로젝트 소개
 
 - **Bread_shoes**는 내가 좋아하는 **나이키 스니커즈** 을 소개 하는 웹사이트이다.
 - 저의 별명 **<u>빵준    --> Breadjun</u>** + <u>**Shoes(신발)**</u> 과 합치면서 **`Bread_shoes`** 로 정하게 됐다.
