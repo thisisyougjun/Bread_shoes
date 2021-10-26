@@ -6,7 +6,6 @@
 
 <%
 
-
     String ID=request.getParameter("ID");
     String PASSWORD = request.getParameter("PASSWORD");
     MemberDBBean manager =MemberDBBean.getInstance();
